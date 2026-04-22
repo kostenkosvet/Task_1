@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.29_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\Svetlana\AppData\Local\Temp\surefire10813614591783412191\surefirebooter-20260422193405230_3.jar C:\Users\Svetlana\AppData\Local\Temp\surefire10813614591783412191 2026-04-22T19-34-05_025-jvmRun1 surefire-20260422193405230_1tmp surefire_0-20260422193405230_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Svetlana\AppData\Local\Temp\surefire9078088893483682515\surefirebooter-20260422193655510_3.jar C:\Users\Svetlana\AppData\Local\Temp\surefire9078088893483682515 2026-04-22T19-36-55_312-jvmRun1 surefire-20260422193655510_1tmp surefire_0-20260422193655510_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Svetlana\Projects\Yandex Practicum\GIT\Mid_Project\Task_1\target\test-classes;C:\Users\Svetlana\Projects\Yandex Practicum\GIT\Mid_Project\Task_1\target\classes;C:\Users\Svetlana\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Svetlana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Svetlana\.m2\repository\org\mockito\mockito-core\5.23.0\mockito-core-5.23.0.jar;C:\Users\Svetlana\.m2\repository\net\bytebuddy\byte-buddy\1.17.7\byte-buddy-1.17.7.jar;C:\Users\Svetlana\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.7\byte-buddy-agent-1.17.7.jar;C:\Users\Svetlana\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Svetlana\AppData\Local\Temp\surefire10813614591783412191\surefirebooter-20260422193405230_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Svetlana\AppData\Local\Temp\surefire9078088893483682515\surefirebooter-20260422193655510_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.29+7-LTS"/>
