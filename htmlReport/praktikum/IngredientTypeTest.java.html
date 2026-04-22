@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>IngredientTypeTest.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jacoco.exec</a> &gt; <a href="index.source.html" class="el_package">praktikum</a> &gt; <span class="el_source">IngredientTypeTest.java</span></div><h1>IngredientTypeTest.java</h1><pre class="source lang-java linenums">package praktikum;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+import java.util.Arrays;
+import java.util.Collection;
+
+import static org.junit.Assert.assertEquals;
+
+@RunWith(Parameterized.class)
+public class IngredientTypeTest {
+
+    private final String expectedName;
+    private final IngredientType ingredientType;
+
+<span class="fc" id="L18">    public IngredientTypeTest(String expectedName, IngredientType ingredientType) {</span>
+<span class="fc" id="L19">        this.expectedName = expectedName;</span>
+<span class="fc" id="L20">        this.ingredientType = ingredientType;</span>
+<span class="fc" id="L21">    }</span>
+
+    @Parameterized.Parameters
+    public static Collection&lt;Object[]&gt; getData() {
+<span class="fc" id="L25">        IngredientType[] values = IngredientType.values();</span>
+
+<span class="fc" id="L27">        return Arrays.asList(new Object[][]{</span>
+                {&quot;SAUCE&quot;, values[0]},
+                {&quot;FILLING&quot;, values[1]}
+        });
+    }
+
+    @Test
+    public void enumShouldContainCorrectValueLength() {
+<span class="fc" id="L35">        IngredientType[] values = IngredientType.values();</span>
+
+<span class="fc" id="L37">        assertEquals(2, values.length);</span>
+<span class="fc" id="L38">    }</span>
+
+    @Test
+    public void shouldReturnCorrectName() {
+<span class="fc" id="L42">        assertEquals(expectedName, ingredientType.name());</span>
+<span class="fc" id="L43">    }</span>
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
